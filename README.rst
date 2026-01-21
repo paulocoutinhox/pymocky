@@ -1,18 +1,18 @@
-.. image:: https://github.com/pymocky/pymocky/raw/master/extras/images/logo.png
-   :target: https://github.com/pymocky/pymocky
+.. image:: https://github.com/paulocoutinhox/pymocky/raw/master/extras/images/logo.png
+   :target: https://github.com/paulocoutinhox/pymocky
    :alt: PyMocky
    :height: 100
 
 |
 
-.. image:: https://github.com/pymocky/pymocky/actions/workflows/python.yml/badge.svg
-   :target: https://github.com/pymocky/pymocky/actions/workflows/python.yml/badge.svg
+.. image:: https://github.com/paulocoutinhox/pymocky/actions/workflows/python.yml/badge.svg
+   :target: https://github.com/paulocoutinhox/pymocky/actions/workflows/python.yml/badge.svg
    :alt: Python package
 
 
 
-.. image:: https://codecov.io/gh/pymocky/pymocky/branch/master/graph/badge.svg?token=XCJ4YCAC5D
-   :target: https://codecov.io/gh/pymocky/pymocky
+.. image:: https://codecov.io/gh/paulocoutinhox/pymocky/branch/master/graph/badge.svg?token=XCJ4YCAC5D
+   :target: https://codecov.io/gh/paulocoutinhox/pymocky
    :alt: codecov
 
 |
@@ -187,7 +187,7 @@ Buy me a coffee
 Supported By Jetbrains IntelliJ IDEA
 ------------------------------------
 
-.. image:: https://github.com/pymocky/pymocky/raw/master/extras/images/jetbrains-logo.png
+.. image:: https://github.com/paulocoutinhox/pymocky/raw/master/extras/images/jetbrains-logo.png
    :target: https://www.jetbrains.com/
    :alt: Supported By Jetbrains IntelliJ IDEA
 
@@ -197,4 +197,4 @@ License
 
 `MIT <http://opensource.org/licenses/MIT>`_
 
-Copyright (c) 2020-2024, Paulo Coutinho
+Copyright (c) 2020-2026, Paulo Coutinho
