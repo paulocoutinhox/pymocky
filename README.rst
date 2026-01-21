@@ -184,13 +184,6 @@ Buy me a coffee
    :height: 40
 
 
-Supported By Jetbrains IntelliJ IDEA
-------------------------------------
-
-.. image:: https://github.com/paulocoutinhox/pymocky/raw/master/extras/images/jetbrains-logo.png
-   :target: https://www.jetbrains.com/
-   :alt: Supported By Jetbrains IntelliJ IDEA
-
 
 License
 -------
