@@ -7,20 +7,20 @@
 import io
 import os
 import subprocess
+import sys
 from shutil import rmtree
 
-import sys
-from setuptools import setup, Command
+from setuptools import Command, setup
 
 from pymocky import __version__
 
 # Package meta-data.
 NAME = "pymocky"
 DESCRIPTION = "Send push notification from command line for single or multiple targets"
-URL = "https://github.com/pymocky/pymocky"
+URL = "https://github.com/paulocoutinhox/pymocky"
 EMAIL = "paulocoutinhox@gmail.com"
 AUTHOR = "Paulo Coutinho"
-REQUIRES_PYTHON = ">=3.7.0"
+REQUIRES_PYTHON = ">=3.10.0"
 VERSION = __version__
 LICENSE = "MIT"
 
@@ -102,11 +102,11 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
