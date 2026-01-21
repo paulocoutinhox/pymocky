@@ -178,7 +178,7 @@ Contributing
 Buy me a coffee
 ---------------
 
-.. image:: https://az743702.vo.msecnd.net/cdn/kofi1.png?v=2
+.. image:: https://storage.ko-fi.com/cdn/kofi2.png?v=6
    :target: https://ko-fi.com/paulocoutinho
    :alt: Buy Me a Coffee at ko-fi.com
    :height: 40
