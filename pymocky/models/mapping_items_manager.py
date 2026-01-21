@@ -21,27 +21,30 @@ class MappingItemsManager(object):
             self.install_watchers()
 
     def parse_yaml_files(self):
-        self.yaml_files = File.get_yaml_files(Config.path)
-        self.mappings = []
+        yaml_files = File.get_yaml_files(Config.path)
+        mappings = []
 
-        for yaml_file in self.yaml_files:
+        for yaml_file in yaml_files:
             full_path = os.path.join(Config.path, yaml_file)
 
             with open(full_path, "r") as file:
                 file_data = yaml.load(file, yaml.SafeLoader)
 
                 if "mappings" in file_data:
-                    mappings = file_data["mappings"]
+                    file_mappings = file_data["mappings"]
 
-                    if mappings and isinstance(mappings, list):
-                        for mapping in mappings:
+                    if file_mappings and isinstance(file_mappings, list):
+                        for mapping in file_mappings:
                             new_mapping = MappingItem(
                                 mapping,
                                 full_path,
                                 os.path.dirname(full_path),
                             )
 
-                            self.mappings.append(new_mapping)
+                            mappings.append(new_mapping)
+
+        self.yaml_files = yaml_files
+        self.mappings = mappings
 
         Log.info("Mappings loaded: {0:d}".format(len(self.mappings)))
 

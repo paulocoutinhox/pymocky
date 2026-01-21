@@ -11,7 +11,7 @@ class File(object):
     @staticmethod
     def get_yaml_files(path):
         files = os.listdir(path)
-        return filter(lambda file: re.match(r".*\.yml$", file), files)
+        return list(filter(lambda file: re.match(r".*\.yml$", file), files))
 
     @staticmethod
     def real_path(base_path, path):
